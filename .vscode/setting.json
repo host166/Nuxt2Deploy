@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "on",
+  "editor.wrappingColumn": 0,
+  "[markdown]": {
+    "editor.formatOnSave": true
+  }
+}

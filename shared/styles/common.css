@@ -1,0 +1,89 @@
+html,body{
+/* -webkit-text-size-adjust: 100%; */
+background-color:#fff;
+font-size:16px;
+font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+line-height: normal;
+/*CSS3提供，清除默认样式*/
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+outline:none;
+}
+/* *:focus{
+outline:none;
+} */
+:focus{
+outline:none;
+}
+body,input,textarea,table,h1,h2,h3,h4,h5,h6,p,img,ul,ol,li,dl,dt,dd{margin:0;padding:0;}
+ul,ol,li,dl,dt,dd{list-style-type:none;}
+a{text-decoration: none;}
+img{vertical-align:middle; font-size:0; line-height:0;}
+input,textarea,table,button{background:0;border:0 none;}
+input[type=text], button, select, textarea{
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+section,figure,figcaption,menu,nav{margin:0;padding:0;}
+section,figure,figcaption{display:block;}
+.dib{display:inline-block;}
+.df{display:flex;}
+.visible{display:block;}
+.hidden{display:none;}
+.shidden{display:none !important;}
+
+.m0a{margin:0 auto;}
+.incWrap{height:auto;overflow:hidden;}
+.incScreen{width:100%;height:100%;}
+.fl{float:left;}
+.fr{float:right;}
+
+.pn,.pf,.pr,.pa{z-index:1;}
+.pf{position:fixed;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pz-1{z-index:-1;}
+.pmc{top:50%;left:50%;transform:translate(-50%,-50%);}
+
+.wsno{white-space: nowrap;}
+
+.oys{overflow:hidden;overflow-y:auto;}
+.oxs{overflow:hidden;overflow-x:auto;}
+.oh{overflow:hidden;}
+
+.pen{pointer-events: none;}
+.pea{pointer-events: auto;}
+.nostyle{font-weight:normal;font-style:normal;}
+
+.bgf{background-color:#fff;}
+
+.cred{color:red;}
+.c0{color:#000;}
+.c3{color:#333;}
+.c8{color:#888;}
+.cf{color:#fff;}
+
+.tal{text-align:left;}
+.tar{text-align:right;}
+.tac{text-align:center;}
+
+/* 单行文字超出显示省略号 */
+.toe{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.nws{font-weight:normal;font-style:normal;}
+
+.f20{font-size:20px;}
+.f16{font-size:16px;}
+.f14{font-size:14px;}
+.f12{font-size:12px;}
+
+
+.radiusBox{margin-left:0;margin-right:0;margin-top:10px;border-radius:7px;padding:20px 10px 0;box-shadow:0 6px 30px 0 rgba(0,43,128,0.07);}
+/* webkit内核 多行文字超出显示省略号 https://www.cnblogs.com/nanyang520/p/11358623.html */
+.toem{
+overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
